@@ -1,0 +1,12 @@
+.container {
+	margin-top: 60px;
+	width: 750px;
+}
+
+small {
+	color: red;
+}
+
+.form-group small {
+    color: red;
+}
