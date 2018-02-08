@@ -1,7 +1,7 @@
 <?php
 
 try {
-	$dsn = "mysql:host=localhost;dbname=jquery_validation;";
+	$dsn = "mysql:host=localhost;dbname=task;";
 	$user = "root";
 	$password = "";
 	$db = new PDO($dsn, $user, $password);

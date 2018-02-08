@@ -8,6 +8,7 @@ require __DIR__ .'/inc/functions.php';
       <th scope="col">ID</th>
       <th scope="col">Full Name</th>
       <th scope="col">Username</th>
+      <th scope="col">Password</th>
       <th scope="col">Email</th>
       <th scope="col">Address</th>
       <th scope="col">Phone</th>
@@ -18,6 +19,7 @@ require __DIR__ .'/inc/functions.php';
       <th scope="row"><?php echo getLastUser()['id']; ?></th>
       <td><?php echo getLastUser()['full_name']; ?></td>
       <td><?php echo getLastUser()['username']; ?></td>
+      <td><?php echo getLastUser()['password']; ?></td>
       <td><?php echo getLastUser()['email']; ?></td>
       <td><?php echo getLastUser()['address']; ?></td>
       <td><?php echo getLastUser()['phone']; ?></td>
